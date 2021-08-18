@@ -58,7 +58,6 @@ const IntroScreen = ({ navigation }) => {
     useEffect(() => {
         AsyncStorage.getItem('alreadyLaunched')
             .then(value => {
-                console.log(value);
                 if (value == null) {
                     AsyncStorage.setItem('alreadyLaunched', 'true');
                     setIsFirstLaunch(true);
