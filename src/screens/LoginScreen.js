@@ -52,7 +52,7 @@ const LoginScreen = () => {
 
 const styles = StyleSheet.create({
     safeArea: {
-        marginVertical: 36
+        marginVertical: 34
     },
     phoneCode: {
         fontSize: 16,
